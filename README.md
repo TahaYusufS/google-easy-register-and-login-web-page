@@ -1,6 +1,7 @@
 # google-easy-register-and-login-web-page
 
 Secrets - Anonymous Sharing App
+
 This is a web application where users can share their embarrassing moments anonymously, similar to a social network. It features a seamless authentication system allowing users to register and log in via their Google account or personal email.
 
 
