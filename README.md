@@ -27,12 +27,15 @@ PG_PASSWORD="your_password"
 
 PG_PORT="5432"
 
+
 Installation & Setup
 Once your .env file and SQL infrastructure are set up, open your terminal (e.g., Git Bash) and install the required dependencies:
 
 
 Git Bash
+
 npm i
+
 nodemon index.js
 
 
