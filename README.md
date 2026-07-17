@@ -12,13 +12,21 @@ To run this project locally, you will need a PostgreSQL database and Google OAut
 Create a .env file in the root directory and configure it as follows:
 
 GOOGLE_CLIENT_ID="your_client_id"
+
 GOOGLE_CLIENT_SECRET="your_client_secret"
+
 SESSION_SECRET="your_session_secret_here"
+
 PG_USER="postgres"
+
 PG_HOST="localhost"
+
 PG_DATABASE="your_database_name"
+
 PG_PASSWORD="your_password"
+
 PG_PORT="5432"
+
 Installation & Setup
 Once your .env file and SQL infrastructure are set up, open your terminal (e.g., Git Bash) and install the required dependencies:
 
