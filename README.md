@@ -36,6 +36,7 @@ Once your .env file and SQL infrastructure are set up, open your terminal (e.g.,
 Git Bash
 
 npm i
+
 nodemon index.js
 
 
