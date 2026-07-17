@@ -1,6 +1,4 @@
-# google-easy-register-and-login-web-page
-
-Secrets - Anonymous Sharing App
+# google-easy-register-and-login-web-page for Secrets - Anonymous Sharing App
 
 This is a web application where users can share their embarrassing moments anonymously, similar to a social network. It features a seamless authentication system allowing users to register and log in via their Google account or personal email.
 
@@ -33,7 +31,7 @@ Once your .env file and SQL infrastructure are set up, open your terminal (e.g.,
 
 
 
-Git Bash
+Git Bash:
 
 npm i
 
@@ -41,10 +39,13 @@ nodemon index.js
 
 
 
-Security Note
+Security Note:
 
 Email Registration: For extra security, passwords are encrypted using bcrypt (salted and hashed) before being stored in the database.
+
 Google Authentication: If you log in via Google, the password field is safely defaulted to "google" in the database, as the actual authentication is securely handled by Google's OAuth service.
+
+
 
 
 
